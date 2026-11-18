@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class AdminDashboard {
     private JPanel mainPanel;
@@ -13,6 +15,14 @@ public class AdminDashboard {
         frame.setExtendedState(Frame.MAXIMIZED_BOTH);
         frame.add(mainPanel);
         frame.setVisible(true);
+
+        usersButton.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+               UserControl user=new UserControl(1);
+               frame.setVisible(false);
+            }
+        });
     }
     public static void main(String[] args) {
         AdminDashboard admin= new AdminDashboard();
