@@ -44,12 +44,12 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="a550c" class="javax.swing.JButton" binding="button1" default-binding="true">
+          <component id="a550c" class="javax.swing.JButton" binding="usersButton" default-binding="true">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Button"/>
+              <text value="Users"/>
             </properties>
           </component>
           <component id="6f1c3" class="javax.swing.JButton" binding="button2" default-binding="true">

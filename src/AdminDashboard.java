@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class AdminDashboard {
     private JPanel mainPanel;
-    private JButton button1;
+    private JButton usersButton;
     private JButton button2;
     private JButton button3;
     private JButton button4;
